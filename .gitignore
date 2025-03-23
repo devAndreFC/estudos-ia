@@ -1,0 +1,46 @@
+# Ignorar o ambiente virtual
+.venv/
+env/
+venv/
+
+# Ignorar dependências instaladas via pip
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Arquivos de configuração e credenciais
+.env
+*.json
+config.yaml
+
+# Logs e caches
+logs/
+*.log
+*.sqlite3
+
+# Checkpoints de modelos treinados
+checkpoints/
+*.ckpt
+
+# Pesos e modelos grandes
+*.h5
+*.pt
+*.pth
+*.onnx
+*.tflite
+*.pb
+*.pkl
+wandb/
+mlruns/
+
+# Arquivos do Jupyter Notebook
+.ipynb_checkpoints/
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos do VS Code e PyCharm
+.vscode/
+.idea/
